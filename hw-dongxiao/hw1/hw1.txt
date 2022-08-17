@@ -1,0 +1,17 @@
+Problem 1: 
+Part(a): 1, 3, 5
+Part(b): 2, 3
+Part(c): 3, 4
+Part(d): 2, 3
+Part(e): 3, 4
+Part(f): 1:T 2:F 3:T
+
+Problem 2: 
+Part(a): 1, 2
+Part(b): 1: git add "hw1q2b.cpp" 2: git status
+Part(c): git pull
+
+
+Problem 3: Submit a separate q3_answers.pdf
+
+Problem 4: Submit a separate q4_answers.pdf

@@ -1,0 +1,31 @@
+Question 1: 
+Part(a): The README.md file is staged
+Part(b): The README.md file is modified and fun_problem.txt is untracked
+Part(c): Both README.md file and fun_problem.txt are staged
+Part(d): Both README.md file and fun_problem.txt are committed so they are at the stage of being unmodified again, 
+but later in command line 2 and command line 3, both files are modified
+Part(e): README.md file is staged, but fun_problem.txt instead is reset, and therefore, 
+fun_problem.txt is at the stage of unmodified. 
+Therefore, the contents of fun_problem is blank because the checkout command restores the working tree branch to the point of last commit.
+Part(f): README.md is again modified
+
+Question 2:
+Part(a): TAB
+Part(b): The shape1.o and shape2.o files will be cleaned when make clean is called as rm -f *.o *~ shape1 shape2 *~ will be executed.
+When make shape1 is called, the command g++ -I. -std=c++11 -ggdb shape1.o shape.o -o shape1.o -lm is called.
+Part(c): declares a phony target where the Makefile will not take as a actual file name, therefore, no file will be produced by the Makefile when the command line followed by the PHONY rule is called
+Part(d): Makefile makefile
+
+Question 3:
+1. An ordered list of names of the colleges(string). It is better to store the names of the colleges in a list is because set does not allow duplicates, thereofore, if a team wins multiple championships, a set will not work.
+At the same time, a map is not desireable for such data storage because a map requires a set of key and value where the key points to the values(names). In this case, there is no appropriate keys as the list of the names 
+are already in order. 
+2. A map of SSN(integer)(key) and their status of vote (bool)(value) indicating whether they have voted. A map will be appropriate for such data storage as the SSN will serve as key of the map that points to the voters' status of vote.
+Moreover, since the data structure has to bee efficient when looking up the voters' status of vote.   
+3. A set of structs containg a name of the contact(string) and phone numbers (string) of the contact. A set is better here is because we don't want duplicates inside the data strcuture. A map should not be used because each person can represent more than one phone number and vice versa. 
+4. A map of Postal Codes (string)(key) and a set of zip codes(integer) (value). The map allows the user to locate the states fast and since in the set, the zip codes of the state is sorted, making the find() method to be O(logn), which is faster than finding in a unsorted list. 
+
+
+
+
+
